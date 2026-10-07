@@ -72,6 +72,8 @@
 {{-- Infrastructure info: which machine answered, which database and which file storage it uses. --}}
 <footer class="site-footer">
   <div class="container">
+    Student: Nadejda Statova
+    <br>
     Served by <code>{{ gethostname() }}</code> · DB: <code>{{ config('database.connections.'.config('database.default').'.host') }}</code> · Files: <code>local disk ({{ config('timecapsule.upload_dir') }})</code>
   </div>
 </footer>
