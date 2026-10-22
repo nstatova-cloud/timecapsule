@@ -75,6 +75,7 @@
     Student: Nadejda Statova
     <br>
     Served by <code>{{ gethostname() }}</code> · DB: <code>{{ config('database.connections.'.config('database.default').'.host') }}</code> · Files: <code>local disk ({{ config('timecapsule.upload_dir') }})</code>
+    <span><b>LR3</b></span>
   </div>
 </footer>
 
